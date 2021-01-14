@@ -60,23 +60,57 @@ name ("Gryffindors", "Countries"). In daily life, we call them "lists."
 
 **The Beatles**
 
-|Index|Data|
-|-----|----|
-| `0`   | `"John Lennon"`     |
-| `1`   | `"Paul McCartney"`  |
-| `2`   | `"Ringo Starr"`     |
-| `3`   | `"George Harrison"` |
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Index</th>
+    <th>Data</th>
+  </tr>
+
+  <tr>
+    <td><code>0</code></td>
+    <td><code>"John Lennon"</code></td>
+  </tr>
+  <tr>
+    <td><code>1</code></td>
+    <td><code>"Paul McCartney"</code></td>
+  </tr>
+  <tr>
+    <td><code>2</code></td>
+    <td><code>"Ringo Starr"</code></td>
+  </tr>
+  <tr>
+    <td><code>3</code></td>
+    <td><code>"George Harrison"</code></td>
+  </tr>
+</table>
 
 or
 
 **Groceries**
 
-|Index|Data|
-|-----|----|
-| `0`   | "Parsnips"`           |
-| `1`   | "English Toffee"`     |
-| `2`   | "Milk"`               |
-| `3`   | "Sprouted Rye Bread"` |
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Index</th>
+    <th>Data</th>
+  </tr>
+
+  <tr>
+    <td><code>0</code></td>
+    <td><code>"Parsnips"</code></td>
+  </tr>
+  <tr>
+    <td><code>1</code></td>
+    <td><code>"English Toffee"</code></td>
+  </tr>
+  <tr>
+    <td><code>2</code></td>
+    <td><code>"Milk"</code></td>
+  </tr>
+  <tr>
+    <td><code>3</code></td>
+    <td><code>"Sprouted Rye Bread"</code></td>
+  </tr>
+</table>
 
 The individual _elements_ that make up this collection (or list) name are
 identified by an _index_.
@@ -124,12 +158,29 @@ What if we wanted to take our list of the Beatles and describe each member not
 by some `Number` _index_, but rather by the instrument they played in the band? As a
 table this might look like:
 
-|Instrument|Beatle|
-|-----|----|
-| `"Rythm Guitar"`  | `"John Lennon"`     |
-| `"Bass"`          | `"Paul McCartney"`  |
-| `"Drums"`         | `"Ringo Starr"`  |
-| `"Lead Guitar"`   | `"George Harrison"`     |
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Instrument</th>
+    <th>Beatle</th>
+  </tr>
+
+  <tr>
+    <td><code>"Rhythm Guitar"</code></td>
+    <td><code>"John Lennon"</code></td>
+  </tr>
+  <tr>
+    <td><code>"Bass"</code></td>
+    <td><code>"Paul McCartney"</code></td>
+  </tr>
+  <tr>
+    <td><code>"Drums"</code></td>
+    <td><code>"Ringo Starr"</code></td>
+  </tr>
+  <tr>
+    <td><code>"Lead Guitar"</code></td>
+    <td><code>"George Harrison"</code></td>
+  </tr>
+</table>
 
 An `Object` is a collection data type that holds multiple pieces of data under a
 collected name whose members can be read and updated by using a _key_ instead
@@ -138,12 +189,29 @@ all the time: "Who was the guy who played **drums** in **The Beatles**?"
 
 We can think of `Object`s like a table that looks like this:
 
-|Key|Value|
-|-----|----|
-| `"liverpool"`  | `"The Beatles"`     |
-| `"manchester"` | `"The Smiths"`  |
-| `"coventry"`   | `"Delia Derbyshire and the BBC Radiophonic Band"`  |
-| `"london"`     | `"Ziggy Stardust and the Spiders from Mars"`     |
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Key</th>
+    <th>Value</th>
+  </tr>
+
+  <tr>
+    <td><code>"liverpool"</code></td>
+    <td><code>"The Beatles"</code></td>
+  </tr>
+  <tr>
+    <td><code>"manchester"</code></td>
+    <td><code>"The Smiths"</code></td>
+  </tr>
+  <tr>
+    <td><code>"coventry"</code></td>
+    <td><code>"Delia Derbyshire and the BBC Radiophonic Band"</code></td>
+  </tr>
+  <tr>
+    <td><code>london</code></td>
+    <td><code>"Ziggy Stardust and the Spiders from Mars"</code></td>
+  </tr>
+</table>
 
 To define this "table" in JavaScript we would type:
 
@@ -213,6 +281,7 @@ const englishMusicByCity = {
   ]
 }
 ```
+
 The _abstraction_ `englishMusicByCity` hides the complexity in that piece of data.
 
 As a peek ahead, we can use the lookup operator (`[]`) to "dig into" this nested collection
