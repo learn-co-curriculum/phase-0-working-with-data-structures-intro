@@ -226,9 +226,9 @@ const englishBandsByCity = {
 
 You provide a name (`englishBandsByCity`), an assignment operator (`=`) and
 then a list of pairs, separated by commas, that should go in the `Object`,
-wrapped in `{}`. Each pair should have a name (typically a `Symbol`), a
-"rocket" symbol (`=>`), and a value. A value is often a scalar value, but it
-could be another collection, more on that later.
+wrapped in `{}`. Each pair should have a key, a colon (`:`), and a value. A
+value is often a scalar value, but it could be another collection; more on
+that later.
 
 ## Define `Object` Key
 
