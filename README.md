@@ -208,7 +208,7 @@ We can think of `Object`s like a table that looks like this:
     <td><code>"Delia Derbyshire and the BBC Radiophonic Band"</code></td>
   </tr>
   <tr>
-    <td><code>london</code></td>
+    <td><code>"london"</code></td>
     <td><code>"Ziggy Stardust and the Spiders from Mars"</code></td>
   </tr>
 </table>
@@ -240,7 +240,7 @@ that later.
 The value that's returned from asking an `Object` what a given _key_ points to is
 known as the key's _value_.
 
-We'll cover adding, removing, retrieving, and deleting _elements_ via their
+We'll cover adding, removing, retrieving, and deleting _values_ via their
 _key_ in another lesson.
 
 ## Demonstrate Nesting of Collection Data Structures
@@ -263,7 +263,7 @@ scary and complex. We're going to give you a short demonstration here so that
 you can see why you want to have these complex data structures. The details on
 how to build them etc... will come in later lessons.
 
-The _elements_ in an _Array_ and the _values_ in an _Object_ can be `Hash`es or
+The _elements_ in an _Array_ and the _values_ in an _Object_ can be `Object`s or
 `Array`s _themselves_. This leads to "nesting" such that you could build a
 complex data structure like the following:
 
