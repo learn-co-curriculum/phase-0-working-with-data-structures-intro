@@ -299,6 +299,6 @@ console.log(`There were ${englishMusicByCity["manchester"][0]["memberNames"].len
 
 This is has been a broad tour of JavaScript's collection data types, `Object` and
 `Array`.  Individually, they are data structures that can hold list- and
-dictionary-like data. Amazingly, they can even _hold each other_ &mdash; and
+dictionary-like data. Amazingly, they can even _hold each other_ — and
 that means we can make very complex data structures from them! We'll practice
 with these types in the following lessons!
