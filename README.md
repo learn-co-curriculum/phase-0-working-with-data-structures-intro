@@ -55,7 +55,8 @@ be put on a scale, they **_are not_** called scalar data types.
 ## Define `Array`
 
 An `Array` is a collection that holds multiple pieces of data under a single
-name ("Gryffindors", "Countries"). In daily life, we call them "lists."
+name ("Countries", "Fast and the Furious Movies"). In daily life, we call them
+"lists."
 
 **The Beatles**
 
