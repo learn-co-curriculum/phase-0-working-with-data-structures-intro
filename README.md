@@ -27,18 +27,14 @@ that contains multiple small elements that we identify by "the third item on my
 grocery list, or the last item on my grocery list." Ordered lists in JavaScript
 are called "Arrays."
 
-<p align="center">
- <img width="300" src="https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/introduction/Image_125_Scroll w-List.png" alt="Scroll"/>
-</p>
+![Grocery List](https://curriculum-content.s3.amazonaws.com/phase-0/working-with-data-structures-intro/grocery-list.png)
 
 Another collection type we know about from daily life are dictionaries: we use
 one thing to "look up" a value. We "look up" the word "computer" in a real
 dictionary and we are "pointed to" a long `String` that tells us what the word
 means. Lookup tables, or dictionaries, in JavaScript, are called "Objects."
 
-<p align="center">
- <img width="300" src="https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/introduction/Image_126_Dictionary.png" alt="Dictionary"/>
-</p>
+![Dictionary](https://curriculum-content.s3.amazonaws.com/phase-0/working-with-data-structures-intro/dictionary.png)
 
 Learning to store and to work with the data held in data structures will be the
 focus of this section. In this lesson, we'll give you a broad, conceptual
@@ -78,12 +74,10 @@ or
 | 2     | "Milk"               |
 | 3     | "Sprouted Rye Bread" |
 
-The individual _elements_ that make up this collection (or list) name are
-identified by an _index_.
+The individual _elements_ that make up this collection (or list) are identified
+by an _index_.
 
-<p align="center">
-  <img width="500" src="https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/introduction/Image_127_Beatles.png" alt="Beatles"/>
-</p>
+![Beatles](https://curriculum-content.s3.amazonaws.com/phase-0/working-with-data-structures-intro/beatles.png)
 
 It might seem strange that we start our list at `0` instead of `1`. Programmers
 like `0` and most programming languages start their index at `0`. Otherwise,
