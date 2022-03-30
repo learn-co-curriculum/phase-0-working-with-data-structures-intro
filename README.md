@@ -50,6 +50,7 @@ be put on a scale, they **_are not_** called scalar data types.
 
 ## Define `Array`
 
+An `Array` is a variable that holds multiple values
 An `Array` is a collection that holds multiple pieces of data under a single
 name ("Countries", "Fast and the Furious Movies"). In daily life, we call them
 "lists."
